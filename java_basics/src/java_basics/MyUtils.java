@@ -2,9 +2,9 @@ package java_basics;
 
 public class MyUtils {
 
-	public static void printSomeStuff(String argument) {
+	public static String printSomeStuff(String argument) {
 		
-		System.out.println("Created method print " + argument);
+		return argument;
 	}
 	
 	public static void printSomeStuff(int argument) {
