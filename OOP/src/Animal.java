@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 
 	String name;
 	String type;
@@ -32,6 +32,8 @@ public class Animal {
 	public void running() {
 		System.out.println("Running...");
 	}
+	
+	public abstract void move();
 	
 }
 
