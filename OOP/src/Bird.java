@@ -1,16 +1,15 @@
 
-public class Bird {
+public class Bird extends Animal {
 	
-	String type;
-	String color;
-	public Bird(String type, String color) {
-		super();
-		this.type = type;
-		this.color = color;
+	
+	
+	public Bird(String name, String type, int weight, boolean isEating) {
+		super(name, type, weight, isEating);
+		// TODO Auto-generated constructor stub
 	}
-	
+
 	public void flying() {
-		System.out.println("The " + type + " is flying and its color is " + color);
+		System.out.println("Flying...");
 	}
 
 }
